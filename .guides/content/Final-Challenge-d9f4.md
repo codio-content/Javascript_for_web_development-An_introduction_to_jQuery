@@ -1,6 +1,6 @@
 In this challenge we will develop a news website, totally in JS.
 
-{Check It!|assessment}(test-964909706)
+{Check It!|assessment}(test-2450424510)
 
 |||guidance
 
