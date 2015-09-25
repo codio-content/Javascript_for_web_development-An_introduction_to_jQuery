@@ -1,4 +1,4 @@
-<p style="text-align:center;">This code from section 3.9: </p>
+<p style="text-align:center;">This code from previous unit section 3.9: </p>
 
 ```
 var x = document.getElementById("container");
