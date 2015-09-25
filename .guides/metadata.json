@@ -1,0 +1,424 @@
+{
+ "sections": [
+  {
+   "id": "3cf288d6-60b8-4b5-9e62-db679bd42974",
+   "title": "Introduction",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-3cf2.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d24d85a7-519d-243b-c9ce-147ba65f7c74",
+   "title": "Introduction to jQuery",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-to-jQuery-d24d.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "561b9591-1fe-784a-ec58-bee77247b907",
+   "title": "Loading jQuery (1)",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loading-jQuery--1--561b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "e530a77f-f19f-7a66-be4d-f4c26bb64f8a",
+   "title": "Loading jQuery (2)",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loading-jQuery--2--e530.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "20753b3-91d8-bbd4-d537-db4eca2c233d",
+   "title": "First steps",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/First-steps-2075.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b85866a4-252f-f06f-b3ec-198dba167b",
+   "title": "Chaining",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Chaining-b858.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "eac94b5-c45e-15af-6138-1c07fc192a4",
+   "title": "Silent errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Silent-errors-eac9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "c222d073-38d2-f95-7fa8-ce79f11c7ad5",
+   "title": "jQuery DOM and CSS manipulations",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [
+    "dom-manipulation"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/jQuery-DOM-and-CSS-manipulations-c222.md",
+   "chapter": true,
+   "reset": [
+    "dom-manipulation",
+    "ar-challenge-jquery",
+    "altering-challenge-jquery"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "56ea701b-a583-f21-b3b7-46cb1eab2f4",
+   "title": "Creating elements Using HTML strings",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-adding.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-adding.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-elements-Using-HTML-strings-56ea.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "68e8ae71-f76a-7b89-ceef-66aeebb2ebb",
+   "title": "Replacing everything inside an element",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Replacing-everything-inside-an-element-68e8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b602d6eb-cd0c-9e48-eb59-a1c9bb1d80f8",
+   "title": "Creating elements using objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-elements-using-objects-b602.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "646e718d-7437-18df-c9cb-3e1188d2474f",
+   "title": "Emptying an element",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-removing.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-removing.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Emptying-an-element-646e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ece87abc-65f5-ef0a-8e58-7b937253f3a9",
+   "title": "Removing an element",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-removing2.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-removing2.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Removing-an-element-ece8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "4750b10c-6ec6-edc9-40d7-e7cdb9ecab2d",
+   "title": "Adding/Removing challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "ar-challenge-jquery/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: ar-challenge-jquery/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "ar-challenge-jquery"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-Removing-challenge-4750.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "424dae94-8dd5-5f8d-c39b-88e3195aa655",
+   "title": "Altering properties",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-altering.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-altering.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-properties-424d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "9143f0de-5b5a-1ef0-442-e8dfafd26c7",
+   "title": "Altering styles",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-styles.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-styles.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-styles-9143.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "a732b0ba-f9eb-d598-9c11-f011f83d9a41",
+   "title": "Adding CSS classes",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-add-class.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-add-class.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-CSS-classes-a732.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "9d26f43d-cb71-93bf-ee0a-2cf1770b3517",
+   "title": "Removing CSS classes from elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-remove-class.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-remove-class.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Removing-CSS-classes-from-elements-9d26.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "4bbd3ff3-140-1b18-34a8-97a4ef44e90",
+   "title": "Altering challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "altering-challenge-jquery/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: altering-challenge-jquery/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "altering-challenge-jquery"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-challenge-4bbd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d9f4809e-b3da-70e-d7f-88837e00498e",
+   "title": "Final Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "final-challenge/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: final-challenge/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "final-challenge"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-Challenge-d9f4.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b2b7e009-eb08-6b12-2e65-aadb58ddcbf7",
+   "title": "That's all folks",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/That-s-all-folks-b2b7.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
