@@ -11,6 +11,6 @@ my_div.innerHTML += my_p
 ```
 $("#container").append("<p> Hello </p>")
 ```
-{Run this code}(node .guides/tests/run-this.js run9)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run9)
 
 Here we use the `.append()` function of jQuery that appends to the `innerHTML` of the element.

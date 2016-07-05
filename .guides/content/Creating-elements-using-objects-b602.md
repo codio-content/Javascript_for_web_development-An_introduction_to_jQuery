@@ -11,7 +11,7 @@ document.getElementById("container").appendChild(p);
 ```
 $("#container").append( $('<p>').text('Hello') )
 ```
-{Run this code}(node .guides/tests/run-this.js run10)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run10)
 
 Here we use the `.append` function that appends at the end of the targeted element, it's the same as using "+=" on `innerHtml` as we saw before.
 
