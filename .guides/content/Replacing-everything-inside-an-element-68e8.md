@@ -11,6 +11,6 @@ my_div.innerHTML = my_p
 ```
 $("#container").html("<p> Hello </p>")
 ```
-{Run this code}(node .guides/tests/run-this.js run91)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run91)
 
 Here we use the `.html()` function of jQuery that replaces the `innerHTML` of the element.

@@ -1,0 +1,50 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1271442683",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Altering challenge (jQuery)",
+   "instructions": "In the top left hand pane, you will find a file called `challenge.html`, along with its preview underneath.\n\nYou are asked to write some jQuery code starting at line 34 in order to :\n\n1. Add a class called `clearfix` to the `div` with an ID of `footer`.\n1. Using the `css()` function, change the `background-color` of the div with ID `main` to `lightblue`.\n1. Finally , using the `css()` function again, add `margin:20px` to the `div` with ID `main` and the div with ID `navbar`.\n\nIf you refresh the bottom preview, when you are done, it should look something like this :\n\n![](.guides/img/altering-challenge-js.png)\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/altering-challenge-jquery.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-244138530",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Adding/Removing challenge (jQuery)",
+   "instructions": "We have prepared the file `challenge.html` in the top left hand pane along with its preview underneath.\n\nWe have a first `for` loop at line 16. This loop will iterate the variable `i` from 1 to 10. We ask you to write inside the loop some jQuery code that will use the `.append()` function on the `#container` to  add `p` tag which will have the text `i` (the value of the variable `i` not the text \"i\").\n\nIn the following loop on line 22, which iterates the variable `j` from 1 to 3, we ask you to get the first `p` that we added above using `$(\"p\").first()` then apply the `detach()` function on it to remove it from the DOM.\n\nCan you guess what will be the result in the preview ?\nRefresh the preview in the bottom left hand pane to see it!\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/ar-challenge-jquery.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2450424510",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Final challenge",
+   "instructions": "In the top left hand pane you can see the code of our `challenge.html` page. We have prepared things a bit for you. The structure is created, we have three `div`s : `#header`, `#container`and `#footer`. We have created all the necessary CSS styles, we have loaded jQuery  for you already and a script called `news.js` which gets the latest 10 news from the [hackernews](https://news.ycombinator.com/) website.\n\nBasically we will be redoing the hackernews website in a more simple way. If you look at the JS code on line 23, you will see that we already wait for the page to be loaded using `$(document).ready` from jQuery.\n\nThen we call our `getNews` function which will connect to hackernews and get us the latest 10 news items. When it's finished it will trigger our callback function with the news as a parameter called `news`. Then we have a `for` loop that goes through each of the news items and assigns them to a variable called `news_item` that you will use.\n\nWe ask you to modify `challenge.html` :\n\n1. Before the `getNews` call (line 25):\n     Set the text of `span.username` to your name using jQuery's `.text()` function.\n \n1. Before the loop (line 30):\n     Empty the `div#container` using jQuery's `.empty()` function\n\n1. Inside the loop (line 37-38):\n    1. Create `<div>` with class = `news` and id = `news_item.id`. Inside that div :\n        1. Create a `<div>` with class `author` and text `news_item.author`\n        1. Create a `<div>` with class `title` and text `news_item.text`\n        1. Create a `<a>` with href AND text `news_item.link`\n    1. Append that `div`you just created to the `#container`.\n\nHere is a full example of a news div :\n\n```\n<div class=\"news\" id=\"10219409\">\n  <div class=\"author\"> known </div>\n  <div class=\"title\"> NASA Struggles Over Deep-Space Plutonium Power </div>\n  <a href=\"http://www.scientificamerican.com/article/within-nasa-a-plutonium-power-struggle/\"> http://www.scientificamerican.com/article/within-nasa-a-plutonium-power-struggle/ </a>\n</div>\n```\nYou can use any method you want to create the elements for the news item.\nWhen we write `news_item.title` we want you to assign the value of the variable `news_item.title` at that place, not just the string \"news_item.title\".\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/final-challenge.js",
+   "points": 10
+  }
+ }
+]

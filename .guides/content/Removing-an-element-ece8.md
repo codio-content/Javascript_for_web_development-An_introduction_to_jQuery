@@ -10,6 +10,6 @@ x.parentNode.removeChild(c)
 ```
 $("#container").detach()
 ```
-{Run this code}(node .guides/tests/run-this.js run12)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run12)
 
 Here we use the `.detach()` function which removes the element from its parent, it "detaches" it from the DOM.

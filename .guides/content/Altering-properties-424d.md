@@ -12,7 +12,7 @@ var the_align = x.getAttribute('align')
 $("#container").attr('align','right')
 var the_align =  $("#container").attr('align')
 ```
-{Run this code}(node .guides/tests/run-this.js run13)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run13)
 
 Here we use the `.attr()` function from jQuery. When used with one parameter it will return the value of that attribute. When use with two parameters it will set the value of that attribute to the value of the second parameter.
 
@@ -29,4 +29,4 @@ link.setAttribute("href","https://codio.com")
 ```
 $("#container").attr("href","https://codio.com")
 ```
-{Run this code}(node .guides/tests/run-this.js run14)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run14)
