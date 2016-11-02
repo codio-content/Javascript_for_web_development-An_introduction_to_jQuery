@@ -2,7 +2,6 @@ var fs = require('fs');
 var phantom = require('phantom');
 var cssutils = require('codio-css-utils');
 
-var box_domain = process.env.CODIO_BOX_DOMAIN;
 var fullurl = "file:///home/codio/workspace/altering-challenge-jquery/challenge.html";    
 var jqueryurl = "file:///home/codio/workspace/.guides/dom-manip/public/js/jquery.js";
 var errors = [];
