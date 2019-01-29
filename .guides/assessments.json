@@ -10,7 +10,7 @@
     "text": []
    },
    "name": "Altering challenge (jQuery)",
-   "instructions": "In the top left hand pane, you will find a file called `challenge.html`, along with its preview underneath.\n\nYou are asked to write some jQuery code starting at line 34 in order to :\n\n1. Add a class called `clearfix` to the `div` with an ID of `footer`.\n1. Using the `css()` function, change the `background-color` of the div with ID `main` to `lightblue`.\n1. Finally , using the `css()` function again, add `margin:20px` to the `div` with ID `main` and the div with ID `navbar`.\n\nIf you refresh the bottom preview, when you are done, it should look something like this :\n\n![](.guides/img/altering-challenge-js.png)\n\nGood luck!",
+   "instructions": "In the top left hand pane, you will find a file called `challenge.html`, along with its preview underneath.\n\nYou are asked to write some jQuery code starting at line 34 in order to :\n\n1. Add a class called `clearfix` to the `div` with an ID of `footer`.\n1. Using the `css()` function, change the `background-color` of the div with ID `main` to `lightblue`.\n1. Finally , using the `css()` function again, add `padding` of `20px` to the `div` with ID `main` and the div with ID `navbar`.\n\nIf you refresh the bottom preview, when you are done, it should look something like this :\n\n![](.guides/img/altering-challenge-js.png)\n\nGood luck!",
    "command": "bash .guides/tests/exec.sh .guides/tests/altering-challenge-jquery.js",
    "points": 5
   }
