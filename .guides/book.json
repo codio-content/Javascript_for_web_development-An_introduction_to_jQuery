@@ -1,0 +1,138 @@
+{
+ "name": "Javascript_for_web_devel",
+ "children": [
+  {
+   "title": "Introduction",
+   "id": "3cf288d6-60b8-4b5-9e62-db679bd42974",
+   "pageId": "3cf288d6-60b8-4b5-9e62-db679bd42974",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Introduction to jQuery",
+   "id": "d24d85a7-519d-243b-c9ce-147ba65f7c74",
+   "pageId": "d24d85a7-519d-243b-c9ce-147ba65f7c74",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Loading jQuery (1)",
+     "id": "561b9591-1fe-784a-ec58-bee77247b907",
+     "pageId": "561b9591-1fe-784a-ec58-bee77247b907",
+     "type": "page"
+    },
+    {
+     "title": "Loading jQuery (2)",
+     "id": "e530a77f-f19f-7a66-be4d-f4c26bb64f8a",
+     "pageId": "e530a77f-f19f-7a66-be4d-f4c26bb64f8a",
+     "type": "page"
+    },
+    {
+     "title": "First steps",
+     "id": "20753b3-91d8-bbd4-d537-db4eca2c233d",
+     "pageId": "20753b3-91d8-bbd4-d537-db4eca2c233d",
+     "type": "page"
+    },
+    {
+     "title": "Chaining",
+     "id": "b85866a4-252f-f06f-b3ec-198dba167b",
+     "pageId": "b85866a4-252f-f06f-b3ec-198dba167b",
+     "type": "page"
+    },
+    {
+     "title": "Silent errors",
+     "id": "eac94b5-c45e-15af-6138-1c07fc192a4",
+     "pageId": "eac94b5-c45e-15af-6138-1c07fc192a4",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "jQuery DOM and CSS manipulations",
+   "id": "c222d073-38d2-f95-7fa8-ce79f11c7ad5",
+   "pageId": "c222d073-38d2-f95-7fa8-ce79f11c7ad5",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Creating elements Using HTML strings",
+     "id": "56ea701b-a583-f21-b3b7-46cb1eab2f4",
+     "pageId": "56ea701b-a583-f21-b3b7-46cb1eab2f4",
+     "type": "page"
+    },
+    {
+     "title": "Replacing everything inside an element",
+     "id": "68e8ae71-f76a-7b89-ceef-66aeebb2ebb",
+     "pageId": "68e8ae71-f76a-7b89-ceef-66aeebb2ebb",
+     "type": "page"
+    },
+    {
+     "title": "Creating elements using objects",
+     "id": "b602d6eb-cd0c-9e48-eb59-a1c9bb1d80f8",
+     "pageId": "b602d6eb-cd0c-9e48-eb59-a1c9bb1d80f8",
+     "type": "page"
+    },
+    {
+     "title": "Emptying an element",
+     "id": "646e718d-7437-18df-c9cb-3e1188d2474f",
+     "pageId": "646e718d-7437-18df-c9cb-3e1188d2474f",
+     "type": "page"
+    },
+    {
+     "title": "Removing an element",
+     "id": "ece87abc-65f5-ef0a-8e58-7b937253f3a9",
+     "pageId": "ece87abc-65f5-ef0a-8e58-7b937253f3a9",
+     "type": "page"
+    },
+    {
+     "title": "Adding/Removing challenge",
+     "id": "4750b10c-6ec6-edc9-40d7-e7cdb9ecab2d",
+     "pageId": "4750b10c-6ec6-edc9-40d7-e7cdb9ecab2d",
+     "type": "page"
+    },
+    {
+     "title": "Altering properties",
+     "id": "424dae94-8dd5-5f8d-c39b-88e3195aa655",
+     "pageId": "424dae94-8dd5-5f8d-c39b-88e3195aa655",
+     "type": "page"
+    },
+    {
+     "title": "Altering styles",
+     "id": "9143f0de-5b5a-1ef0-442-e8dfafd26c7",
+     "pageId": "9143f0de-5b5a-1ef0-442-e8dfafd26c7",
+     "type": "page"
+    },
+    {
+     "title": "Adding CSS classes",
+     "id": "a732b0ba-f9eb-d598-9c11-f011f83d9a41",
+     "pageId": "a732b0ba-f9eb-d598-9c11-f011f83d9a41",
+     "type": "page"
+    },
+    {
+     "title": "Removing CSS classes from elements",
+     "id": "9d26f43d-cb71-93bf-ee0a-2cf1770b3517",
+     "pageId": "9d26f43d-cb71-93bf-ee0a-2cf1770b3517",
+     "type": "page"
+    },
+    {
+     "title": "Altering challenge",
+     "id": "4bbd3ff3-140-1b18-34a8-97a4ef44e90",
+     "pageId": "4bbd3ff3-140-1b18-34a8-97a4ef44e90",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Final Challenge",
+   "id": "d9f4809e-b3da-70e-d7f-88837e00498e",
+   "pageId": "d9f4809e-b3da-70e-d7f-88837e00498e",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "That's all folks",
+   "id": "b2b7e009-eb08-6b12-2e65-aadb58ddcbf7",
+   "pageId": "b2b7e009-eb08-6b12-2e65-aadb58ddcbf7",
+   "type": "chapter",
+   "children": []
+  }
+ ]
+}
